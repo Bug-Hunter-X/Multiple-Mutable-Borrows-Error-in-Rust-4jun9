@@ -1,0 +1,3 @@
+# Multiple Mutable Borrows Error in Rust
+This repository demonstrates a common error in Rust: attempting to create multiple mutable references to the same variable.  Rust's ownership and borrowing system prevents data races by disallowing this.
+The `bug.rs` file contains code that produces the error. The `bugSolution.rs` file shows how to resolve it using techniques like cloning or single mutable reference.
